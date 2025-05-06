@@ -2,12 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import simpy
-import matplotlib.pyplot as plt
 import plotly.express as px
 import graphviz
 import string
-from io import BytesIO
 
+# Set the page layout to wide
 st.set_page_config(layout="wide")
 
 # Generate names for parallel stations
@@ -155,4 +154,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
