@@ -3,5 +3,5 @@ pandas
 numpy
 matplotlib
 plotly
-simpy
+simpy==4.1.1
 graphviz
